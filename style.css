@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 6vh;
+    background-color: white; 
+}
+#logo{
+    color: #1E0E62;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    border-radius: 100px;
+    padding: 1vh;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: #1E0E62;
+    font-weight: 700px;
+    margin: 3vh;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: #1E0E62;
+    font-weight: 700px;
+    font-size: 24px;
+    margin: 3vh;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 3vh;
+}
+
+main{
+    padding: 3vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+main>img{
+    margin: 3vh;
+}
+
+.lang-img{
+    width: 100px;
+}
+
+
+hr{
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+
+footer{
+    padding: 3vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: colum;
+    align-items: cente;
+}
+
+li{
+    list-style: none;
+}
