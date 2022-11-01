@@ -99,3 +99,27 @@ footer{
 li{
     list-style: none;
 }
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #280f99;
+    border-radius: 30px;
+    margin: 3vh;
+}
+
+.proyectos, a:hover{
+    opacity: 70%;
+    color: #280f99;
+}
+
+#contenedor-proyectos{
+    position: relative;
+}
+
+.textoimagen{
+    position: absolute;
+    top: 14%;
+    left: 20%;
+}
+
